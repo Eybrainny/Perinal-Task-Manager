@@ -35,7 +35,6 @@
 
 
                 </div>
-                </td>
                 <div class="text-gray-800 dark:text-white">
                     <h3 class="block text-2xl font-bold text-gray-800 dark:text-white text-center">Tasks List</h3>
                     @foreach($tasks as $task)

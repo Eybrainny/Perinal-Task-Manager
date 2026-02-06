@@ -41,8 +41,7 @@ class TaskManager extends Component
 
         Task::create([
             'title' => $validated['title']
-    
-    ]);
+        ]);
         $this->tasks = Task::all();  
         $this->title = ''; 
         session()->flash('message', 'Task created successfully!');  
